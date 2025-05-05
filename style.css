@@ -49,10 +49,12 @@ body {
     padding: 20px 10px;
     width: 100%;
     box-sizing: border-box;
+    
 }
 
 .salater {
     background: #E7D0E2;
+
 }
 
 .pitabrod {
@@ -70,9 +72,11 @@ body {
 .menu-title,
 .pitatitle,
 .urowntitle {
-    font-size: 48px;
+    font-size: 70px;
     text-align: center;
     margin-top: 20px;
+    color: #22453F;
+    
 }
 
 .pitatitle {
@@ -87,7 +91,7 @@ body {
 .pitasubtitle,
 .urownsubtitle {
     text-align: center;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .pitasubtitle {
@@ -126,25 +130,27 @@ body {
 .menu-item-description {
     width: 70%;
     margin-right: 5%;
+   
 }
 
 .menu-item-name {
     color: #22453F;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Battambang', sans-serif;
     font-weight: 900;
+    
 }
 
 .menu-item-details {
     color: #22453F;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Battambang', sans-serif;
     font-weight: 400;
 }
 
 .menu-item-image {
-    width: 120px;
-    height: 110px;
+    width: 150px;
+    height: 140px;
     border-radius: 16px;
     border: 1px #22453F solid;
     margin-left: 20px;
