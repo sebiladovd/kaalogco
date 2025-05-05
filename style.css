@@ -1,6 +1,12 @@
+
+ @import url('https://fonts.cdnfonts.com/css/effra-heavy');
+ @import url('https://fonts.cdnfonts.com/css/eb-garamond-2');
+ @import url('https://fonts.cdnfonts.com/css/battambang-2');
+                
+
 body {
     background: #F7F4EA;
-    font-family: sans-serif;
+    font-family: 'Effra Heavy', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -49,6 +55,7 @@ body {
     padding: 20px 10px;
     width: 100%;
     box-sizing: border-box;
+    font-family:;
     
 }
 
@@ -98,7 +105,8 @@ body {
 .urownsubtitle {
     text-align: center;
     font-size: 25px;
-    font-family: garamond;
+    font-family: 'EB Garamond', sans-serif;
+                                                
 }
 
 .menu-subtitle {
@@ -147,7 +155,7 @@ body {
 .menu-item-name {
     color: #22453F;
     font-size: 25px;
-    font-family: 'Battambang';
+    font-family: 'Battambang', sans-serif;
     font-weight: 900;
     
 }
@@ -155,7 +163,7 @@ body {
 .menu-item-details {
     color: #22453F;
     font-size: 20px;
-    font-family: 'Battambang';
+    font-family: 'Battambang', sans-serif;
     font-weight: 400;
 }
 
