@@ -74,13 +74,19 @@ body {
 .urowntitle {
     font-size: 70px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     color: #22453F;
+    
+}
+
+.menu-title {
+    margin-left: 25px;
     
 }
 
 .pitatitle {
     color: #E84F25;
+    margin-left: 50px;
 }
 
 .urowntitle {
@@ -92,6 +98,12 @@ body {
 .urownsubtitle {
     text-align: center;
     font-size: 25px;
+    font-family: garamond;
+}
+
+.menu-subtitle {
+    color:#22453F;
+
 }
 
 .pitasubtitle {
@@ -130,13 +142,12 @@ body {
 .menu-item-description {
     width: 70%;
     margin-right: 5%;
-   
 }
 
 .menu-item-name {
     color: #22453F;
     font-size: 25px;
-    font-family: 'Battambang', sans-serif;
+    font-family: 'Battambang';
     font-weight: 900;
     
 }
@@ -144,7 +155,7 @@ body {
 .menu-item-details {
     color: #22453F;
     font-size: 20px;
-    font-family: 'Battambang', sans-serif;
+    font-family: 'Battambang';
     font-weight: 400;
 }
 
@@ -154,6 +165,13 @@ body {
     border-radius: 16px;
     border: 1px #22453F solid;
     margin-left: 20px;
+}
+
+.title-image {
+    margin-left: 10px;
+    max-width: 50%;
+    max-height: 50%
+   
 }
 
 @media (max-width: 1024px) {
@@ -177,6 +195,8 @@ body {
     .menu-item-image {
         margin: 10px auto 0;
     }
+
+
 }
 
 @media (max-width: 768px) {
