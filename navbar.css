@@ -1,0 +1,140 @@
+/* RESET & BASICS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: white;
+  }
+  
+  /* NAVBAR WRAPPER */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00463f; /* Mørkegrøn */
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  /* LOGO + TAGLINE */
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .tagline {
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-top: 0.2rem;
+    letter-spacing: 0.5px;
+  }
+  
+  /* NAVIGATION LINKS */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    transition: opacity 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    opacity: 0.8;
+  }
+  
+  /* CALL-TO-ACTION BUTTON */
+  .cta-button {
+    background-color: #f8f5eb; /* Lys beige */
+    color: #1f3c34;
+    padding: 1.5rem 3.5rem;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6e3d6;
+  }
+  
+  /* HAMBURGER MENU TIL MOBIL */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  /* =========== RESPONSIV =========== */
+  @media (max-width: 768px) {
+    /* Vis hamburger */
+    .hamburger {
+      display: flex;
+    }
+  
+    /* Juster navbar struktur */
+    .navbar {
+      align-items: flex-start;
+    }
+  
+    /* Skjul links til de åbnes */
+    .nav-links {
+      display: none;
+      flex-direction:column;
+      width: 100%;
+      background-color: #00463f;
+      padding-top: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      align-items: center;
+      gap: 2.5rem;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links a {
+      padding: 1rem;
+      font-size: 1rem;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .cta-button {
+      margin-top: 1rem;
+      width: 100%;
+      text-align: center;
+      font-size: 1rem;
+    }
+  
+    .logo img {
+      height: 70px; /* Lidt mindre på mobil */
+    }
+  
+    .tagline {
+      font-size: 0.75rem;
+    }
+  }
+  

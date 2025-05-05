@@ -25,18 +25,6 @@ body {
     box-sizing: border-box;
 }
 
-.image-header {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 30px;
-    text-align: center;
-}
-
-.image-header img {
-    width: 150px;
-    height: 150px;
-}
 
 .menu-section {
     width: 100%;
