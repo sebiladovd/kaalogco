@@ -25,22 +25,25 @@
     color: #e6ff00;
     position: relative;
     padding: 2rem;
+    font-size: 70px;
+    -webkit-text-stroke: 3px black; 
   }
   
   .hero-content {
-    background-color: rgba(0, 62, 62, 0.6); /* Gør baggrunden mørkere for tekstens synlighed */
     padding: 2rem;
     border-radius: 10px;
   }
   
   .hero button {
     margin-top: 1rem;
-    background-color: #fff;
-    color: #000;
-    padding: 0.75rem 1.5rem;
+    background-color: black;
+    color: white;
+    padding: 2.75rem 2.5rem;
     font-weight: bold;
     border: none;
     cursor: pointer;
+   font-size: 50px;
+   border-radius: 20px;
   }
   
   /* MENU */
@@ -62,23 +65,30 @@
   
   .left-img img {
     order: 0;
-    margin-right: 200px;
+    margin-right: 100px;
+ 
+    
+   
   }
   
   .right-img img {
     order: 1;
-    margin-left: 200px;
+    margin-left: 100px;
+
+   
   }
   
   .menu-box img {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     border-radius: 8px;
+    
   }
   
   .menu-text {
     max-width: 500px;
     text-align: left;
+
   }
   
   .menu-text h2 {
@@ -177,4 +187,3 @@
       text-align: center;
     }
   }
-  
