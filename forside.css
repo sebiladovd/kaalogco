@@ -78,13 +78,25 @@
    
   }
   
-  .menu-box img {
+  .menu-box img {  
     width: 100%;
     max-width: 600px;
     border-radius: 8px;
+    margin-top: 90px;
     
   }
+
+  /*Det så teksten ikke stikker ud fra billedet for oven,
+  og så er den lidt højre oppe */
+  .left {
+    margin-left: 110px;
+    margin-bottom: 440px;
+  }
   
+.right {
+    margin-bottom: 440px;
+}
+
   .menu-text {
     max-width: 500px;
     text-align: left;
