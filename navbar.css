@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/effra-heavy');
+
 /* RESET & BASICS */
 * {
     margin: 0;
@@ -6,7 +8,7 @@
   }
   
   body {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Effra Heavy', sans-serif;
     background-color: white;
   }
   
@@ -15,27 +17,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #00463f; /* Mørkegrøn */
+    background-color: #00493D; 
     padding: 1.5rem 2rem;
     flex-wrap: wrap;
   }
-  
-  /* LOGO + TAGLINE */
+
+
+
   .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
- 
-  
-  .tagline {
-    font-size: 0.85rem;
-    color: #ccc;
-    margin-top: 0.2rem;
-    letter-spacing: 0.5px;
-  }
-  
+
   /* NAVIGATION LINKS */
   .nav-links {
     list-style: none;
@@ -49,7 +44,6 @@
     font-weight: bold;
     font-size: 1.5rem;
     border-bottom: 2px solid white;
-    transition: opacity 0.2s ease;
   }
   
   .nav-links a:hover {
@@ -65,11 +59,10 @@
     font-weight: bold;
     text-decoration: none;
     font-size: 1.1rem;
-    transition: background 0.2s ease;
   }
   
   .cta-button:hover {
-    background-color: #e6e3d6;
+    background-color: #F7F4EA;
   }
   
   /* HAMBURGER MENU TIL MOBIL */
@@ -104,7 +97,7 @@
       display: none;
       flex-direction:column;
       width: 100%;
-      background-color: #00463f;
+      background-color: #00493D;
       padding-top: 1rem;
       margin-top: 1rem;
       margin-bottom: 1rem;
@@ -119,7 +112,7 @@
     .nav-links a {
       padding: 1rem;
       font-size: 1rem;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid white;
     }
   
     .cta-button {
