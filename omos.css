@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/erica-one');
+@import url('https://fonts.cdnfonts.com/css/effra-heavy');
+@import url('https://fonts.cdnfonts.com/css/effra-trial');         
+
+
+
+/* Reset og basis */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fdfcf5;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Wrapper */
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Sektioner */
+  .section {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  
+  /* Billeder */
+  .image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+
+  }
+  
+  /* Typografi */
+  h1 {
+    font-size: 2.5rem;
+    color: #00493D;
+    margin-bottom: 1rem;
+    font-family: 'Effra Heavy', sans-serif;
+  }
+  
+  h2 {
+    font-size: 1.5px;
+    color: black;
+    margin: 1.2rem 0 0.5rem;
+    font-family: 'Effra Heavy', sans-serif;
+      
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #000;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Effra Trial', sans-serif;
+  }
+ 
+
+  .styled-line1 {
+
+    height: 5px;
+    width: 20%;             
+    background-color: #E84F25;
+    border: none;
+    margin: 0.5rem auto 2rem auto; /* auto = centreret */
+    border-radius: 2px;
+  }
+  
+
+  .styled-line2 {
+    height: 5px;
+    width: 20%;             
+    background-color: #00493D;
+    border: none;
+    margin: 0.5rem auto 2rem auto; /* auto = centreret */
+    border-radius: 2px;
+  }
+
+
+  .styled-line3 {
+    height: 5px;
+    width: 20%;             
+    background-color: #00493D;
+    border: none;
+    margin: 0.5rem auto 2rem auto; /* auto = centreret */
+    border-radius: 2px;
+  }
+
+
+  .styled-line4 {
+    height: 5px;
+    width: 20%;             
+    background-color: #E84F25;
+    border: none;
+    margin: 0.5rem auto 2rem auto; /* auto = centreret */
+    border-radius: 2px;
+  }
+
+
+  /* Responsiv tilpasning */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 2.4rem;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  
