@@ -64,13 +64,16 @@
   }
   
   p {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #000;
     max-width: 600px;
     margin: 0 auto;
     font-family: 'Effra Trial', sans-serif;
   }
  
+  a {
+    color: black;
+  }
 
   .styled-line1 {
 
@@ -112,6 +115,15 @@
     border-radius: 2px;
   }
 
+
+  .styled-line5 {
+    height: 5px;
+    width: 70%;             
+    background-color: #00493D;
+    border: none;
+    margin: 0.5rem auto 2rem auto; /* auto = centreret */
+    border-radius: 2px;
+  }
 
   /* Responsiv tilpasning */
   @media (min-width: 768px) {
