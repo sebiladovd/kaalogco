@@ -18,7 +18,7 @@
   }
   
   /* HERO */
-  .hero {
+  .nyebowls {
     background-image: url("images/Bowl billede.png"), url("images/ForsideIMG2.png");
     background-size: 50% 100%, 50% 100%; /* To billeder fylder hele bredden */
     background-position: left center, right center;
@@ -36,7 +36,7 @@
     -webkit-text-stroke: 2px black; 
   }
   
-  .hero-content {
+  .nyebowls-content {
     padding: 2rem;
     border-radius: 10px;
   }
@@ -48,7 +48,7 @@
 
 }
 
-  .hero button {
+  .nyebowls button {
     margin-top: 1rem;
     background-color: black;
     color: white;
@@ -63,14 +63,14 @@
   }
   
   /* MENU */
-  .menu {
+  .mad {
     background-color: #004944;
     color: #fff;
     text-align: center;
     padding: 2rem 1rem;
   }
   
-  .menu-box {
+  .mad-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +94,7 @@
    
   }
   
-  .menu-box img {  
+  .mad-box img {  
     width: 100%;
     max-width: 600px;
     border-radius: 8px;
@@ -113,17 +113,17 @@
     font-size: 40px;
 }
 
-.menu-text p {
+.mad-text p {
   font-family: 'Effra Trial', sans-serif;
 }
 
-  .menu-text {
+  .mad-text {
     max-width: 600px;
     text-align: left;
 
   }
   
-  .menu-text h2 {
+  .mad-text h2 {
     color: #e6ff00;
     font-size: 60px;
     margin-bottom: 1.5rem;
@@ -131,7 +131,7 @@
     -webkit-text-stroke: 1px black;                                              
   }
   
-  .menu-button {
+  .mad-button {
     background-color: #000;
     color: #fff;
     padding: 3.5rem 15.5rem;
@@ -154,7 +154,7 @@
     -webkit-text-stroke: 0.1px white; 
   }
   
-  .about .subtitle {
+  .about .smalltitle {
     font-style: italic;
     color: #000;
     margin-bottom: 1rem;
@@ -163,7 +163,7 @@
     font-weight: bold;
   }
   
-  .about .subtitle2 {
+  .about .smalltitle2 {
 
     margin-bottom: 1rem;
     font-size: 30px;
@@ -239,7 +239,7 @@
   
   /* RESPONSIVE */
   @media (max-width: 1024px) {
-    .hero {
+    .nyebowls {
       flex-direction: column;
       background-size: cover;
       background-position: center;
@@ -248,20 +248,20 @@
       font-size: 40px;
     }
   
-    .hero-content h1 {
+    .nyebowls-content h1 {
       font-size: 40px;
     }
   
-    .hero .hvidt {
+    .nyebowls .hvidt {
       font-size: 30px;
     }
   
-    .hero button {
+    .nyebowls button {
       font-size: 30px;
       padding: 2rem;
     }
   
-    .menu-box {
+    .mad-box {
       flex-direction: column;
       text-align: center;
       margin-bottom: 3rem;
@@ -272,20 +272,20 @@
       margin: 0 auto;
     }
   
-    .menu-text {
+    .mad-text {
       text-align: center;
       padding: 1rem;
     }
   
-    .menu-text h2 {
+    .mad-text h2 {
       font-size: 40px;
     }
   
-    .menu-text p {
+    .mad-text p {
       font-size: 20px;
     }
   
-    .menu-button {
+    .mad-button {
       font-size: 30px;
       padding: 2rem 4rem;
     }
@@ -294,8 +294,8 @@
       font-size: 35px;
     }
   
-    .about .subtitle,
-    .about .subtitle2 {
+    .about .smalltitle,
+    .about .smalltitle2 {
       font-size: 20px;
     }
   
