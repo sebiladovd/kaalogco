@@ -12,7 +12,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-color: white;
     color: black;
     line-height: 1.6;
   }
@@ -65,7 +65,7 @@
   /* MENU */
   .mad {
     background-color: #00493D;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 2rem 1rem;
   }
@@ -145,7 +145,7 @@
   
   /* ABOUT */
   .about {
-    background-color: #fff;
+    background-color: white;
     color: #000;
     text-align: center;
     padding: 2rem 1rem;
@@ -173,7 +173,7 @@
 
   .gallery-button {
     background-color: black;
-    color: #fff;
+    color: white;
     padding: 3.5rem 3.5rem;
     font-weight: bold;
     border: none;
@@ -187,7 +187,7 @@
   /* EVENTS */
   .events {
     background-color: black;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 2rem 1rem;
   }
