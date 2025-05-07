@@ -238,24 +238,92 @@
   }
   
   /* RESPONSIVE */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .hero {
-      height: 70vh;
-      background-size: 100% 100%; /* Billederne tilpasser sig 100% */
+      flex-direction: column;
+      background-size: cover;
       background-position: center;
-      padding: 2rem;
+      height: auto;
+      padding: 4rem 1rem;
+      font-size: 40px;
     }
   
-    .hero-content {
-      padding: 1.5rem;
+    .hero-content h1 {
+      font-size: 40px;
+    }
+  
+    .hero .hvidt {
+      font-size: 30px;
+    }
+  
+    .hero button {
+      font-size: 30px;
+      padding: 2rem;
     }
   
     .menu-box {
       flex-direction: column;
       text-align: center;
+      margin-bottom: 3rem;
+    }
+  
+    .left-img img,
+    .right-img img {
+      margin: 0 auto;
     }
   
     .menu-text {
       text-align: center;
+      padding: 1rem;
+    }
+  
+    .menu-text h2 {
+      font-size: 40px;
+    }
+  
+    .menu-text p {
+      font-size: 20px;
+    }
+  
+    .menu-button {
+      font-size: 30px;
+      padding: 2rem 4rem;
+    }
+  
+    .about {
+      font-size: 35px;
+    }
+  
+    .about .subtitle,
+    .about .subtitle2 {
+      font-size: 20px;
+    }
+  
+    .gallery-button {
+      font-size: 40px;
+      padding: 2rem;
+    }
+  
+    .events h2 {
+      font-size: 35px;
+    }
+  
+    .events p {
+      font-size: 20px;
+    }
+  
+    .event-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .event-buttons button {
+      font-size: 30px;
+      padding: 1.5rem 4rem;
+    }
+  
+    .responsive-img {
+      max-width: 90%;
     }
   }
+  
